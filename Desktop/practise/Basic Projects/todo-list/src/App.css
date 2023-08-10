@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.form{
+  width: 400px;
+  height: auto;
+  border: 2px solid gray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+}
+
+input{
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.TodoWrapper {
+  
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+button{
+  padding:10px;
+  margin: 10px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgb(8, 239, 8);
+}
+
+.heading{
+  background-color: orange;
+  padding:10px;
+  
+}
+.list{
+  display:flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: 154px;
+}
+
+h5{
+  margin-left: 30px;
+}
+
+
+
+.btn:hover{
+  background-color: red;
+}
+
+
+.btn_edit{
+  margin-top: 10px;
+  background: #8758ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  margin-left: 286px;
+  position: absolute;
+  
+  
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
